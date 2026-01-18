@@ -30,7 +30,7 @@ function App() {
     setMessage('');
 
     try {
-      const response = await fetch('http://localhost:3000/api/pacientes', {
+      const response = await fetch('/api/pacientes', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
